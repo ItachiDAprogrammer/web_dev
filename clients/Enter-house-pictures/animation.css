@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	background: #004599;
+	color:white;
+	line-height: 1.2;
+}
+
+#land_header{
+	height: 250px;
+}
+
+h4{
+	padding: 10px 0px 10px 0px;
+}
+.landing{
+	max-width: 960px;
+	margin: auto;
+	padding: 0 30px;
+}
+
+.landing h1{
+	position: relative;
+	animation: heading;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+	0%{top: -50px;}
+	100%{top: 150px;}
+
+}
