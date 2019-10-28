@@ -31,7 +31,42 @@ h4{
 }
 
 @keyframes heading {
-	0%{top: -50px;}
-	100%{top: 150px;}
+	0%{top: -50px;
+		opacity: 0.3;
+	}
+	50%{opacity: 0.5}
+	100%{top: 150px;
+		opacity: 1;
+	}
 
+}
+
+
+.landing p{
+	position: relative;
+	animation: intro;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes intro{
+	0%{right: -800px;}
+	100%{right: 0px;}
+
+}
+
+
+#btn{
+	display: inline-block;
+	color: inherit;
+	border: 1px white solid;
+	padding: 1rem 1rem;
+	text-decoration: none;
+	margin-top: 20px;
+	border-radius: 2px;
+
+}
+
+#btn:hover{
+	color: #000;
 }
