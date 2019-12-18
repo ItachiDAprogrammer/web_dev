@@ -1,7 +1,28 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+//.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .carousel-inner img{
 	width: 100%;
 	height: 100%;
 }
-.card{
-	width:30em;
+.navbar{
+	background-color: #e7d109 !important;
 }
+
+ #gt-started{
+	background-image: url(bg/div-bg.jpg);
+	position: fixed;	 
+ }
+
+ h3 p a{
+ 	text-decoration: none;
+ }
+
